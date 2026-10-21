@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chukwuebuka Ohiomoba</title>
+<meta name="description" content="I build data pipelines: ingestion, dbt transformations and the data quality checks that catch a bad load before it reaches a business review.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&family=Geist+Mono:wght@400;500&family=Bricolage+Grotesque:opsz,wght@12..96,500..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+
+<header class="nav">
+  <nav class="capsule" aria-label="Primary">
+    <a class="mark" href="#top" aria-label="Chukwuebuka Ohiomoba, home">CO</a>
+    <a class="lnk opt" href="#about">About</a>
+    <a class="lnk" href="#work">Work</a>
+    <a class="lnk" href="#contact">Contact</a>
+    <a class="cv" href="resume.pdf">Resume</a>
+    <button class="theme-btn" id="themeBtn" type="button" aria-label="Toggle light and dark mode">◐</button>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero" aria-label="Introduction">
+  <div class="copy">
+    <h1 class="claim">
+      <span class="sr-only">I build the data pipelines finance, marketing, media, leadership and content teams actually trust.</span>
+      <span aria-hidden="true"><span class="ln">I build the data pipelines</span> <span class="ln"><span class="rot" id="rot"><span class="in">finance</span><span>marketing</span><span>media</span><span>leadership</span><span>content</span></span> teams actually trust.</span></span>
+    </h1>
+    <div class="intro">
+      <p class="proofline">
+        <a href="#about">$360M+ in annual revenue reported<i>&rarr;</i></a>
+        <a href="#about">18M users unified after a $1B acquisition<i>&rarr;</i></a>
+        <a href="#work">53 dbt tests, one built to fail<i>&rarr;</i></a>
+      </p>
+      <p class="lede">Six years building pipelines for revenue and marketing data, the last four at <strong>Gen Digital</strong>. I write the ingestion, the dbt transformations and the data quality checks that catch a bad load before it reaches a business review.</p>
+      <p class="links"><a href="https://github.com/ebukaohiomoba">GitHub</a><a href="https://linkedin.com/in/chukwuebuka-ohiomoba">LinkedIn</a></p>
+      <p class="see"><a href="#work">See selected work <span aria-hidden="true">&darr;</span></a></p>
+    </div>
+  </div>
+
+  <div class="stage" aria-hidden="true"></div>
+  <p class="wordmark" id="wordmark" aria-hidden="true">chukwuebuka ohiomoba</p>
+
+</section>
+
+<section class="about" id="about" aria-label="About">
+  <div class="about-pin">
+    <div class="inner">
+      <p class="stmt" id="stmt">I turn messy revenue and marketing data into numbers a business review can stand on: loads you can rerun, tests for the bugs I've actually seen, and one definition of every metric across six teams.</p>
+      <div class="sign" id="sign">
+        <span class="sign-ph" aria-hidden="true"><span>co</span></span>
+        <div class="sign-tx"><span class="sign-nm">Chukwuebuka Ohiomoba</span><a class="sign-cv" href="resume.pdf">Read my resume <span aria-hidden="true">&#8599;</span></a></div>
+      </div>
+      <dl class="stats" id="stats">
+        <div class="stat"><dt class="num">$360M+</dt><dd>annual revenue reported on through models I built</dd>
+          <button class="math" type="button" aria-expanded="false">How it's calculated <span>+</span></button>
+          <div class="calc"><p>$30M+ a month across three consumer-finance business lines, times twelve. The models behind it are mine.</p></div></div>
+        <div class="stat"><dt class="num">18M</dt><dd>users unified after a $1B acquisition</dd>
+          <button class="math" type="button" aria-expanded="false">How it's calculated <span>+</span></button>
+          <div class="calc"><p>Gen Digital's 2025 fintech acquisition. Two sets of metrics, each right in its own system. I merged them into one.</p></div></div>
+        <div class="stat"><dt class="num">$3M+</dt><dd>revenue recovered from silent tracking failures</dd>
+          <button class="math" type="button" aria-expanded="false">How it's calculated <span>+</span></button>
+          <div class="calc"><p>Fixing tracking that failed without errors, including one bug that skewed $100K+ a month.</p></div></div>
+        <div class="stat"><dt class="num">6</dt><dd>teams running weekly reviews on one set of metrics</dd>
+          <button class="math" type="button" aria-expanded="false">How it's calculated <span>+</span></button>
+          <div class="calc"><p>Executive, Product, Media, Media Ops, Finance and Content Growth, all on the same definitions.</p></div></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="cases" id="work">
+  <div class="cases-head" id="casesHead">
+    <h2 class="ch-title"><span class="ch-ln"><span>Selected</span></span> <span class="ch-ln"><span>work</span></span><span class="ch-count" aria-label="2 projects">(02)</span></h2>
+    <div class="ch-side">
+      <p class="ch-lede">Two end-to-end pipelines, from raw API and CSV extracts to the metrics people actually review.</p>
+      <a class="ch-all" href="https://github.com/ebukaohiomoba">All code on GitHub <span aria-hidden="true">&#8599;</span></a>
+    </div>
+  </div>
+
+  <div class="stack">
+    <article class="case">
+      <div class="case-inner">
+        <div class="case-visual">
+          <div class="flow" aria-label="Pipeline stages">
+            <div class="fs"><b>1</b>Stripe + GA4 APIs</div><div class="fl"></div>
+            <div class="fs"><b>2</b>Raw JSON, loaded safely</div><div class="fl"></div>
+            <div class="fs"><b>3</b>dbt models</div><div class="fl"></div>
+            <div class="fs"><b>4</b>MRR, retention, CAC</div>
+            <p class="term">$ dbt build<br><span class="ok">PASS=53</span> WARN=0 ERROR=0</p>
+          </div>
+        </div>
+        <div class="case-summary">
+          <div class="case-org"><span class="co-logo"><span>RA</span></span><span class="co-txt"><b>Revenue attribution ELT</b><i>SaaS billing · Python, dbt, Airflow, Snowflake / DuckDB</i></span><span class="co-yrs">2026</span></div>
+          <span class="co-flag">Open source</span>
+          <h3 class="case-title">Which marketing channels bring in customers who pay and stay?</h3>
+          <p class="case-desc"><strong>MRR is built from invoices, not subscriptions,</strong> so an upgrade today can't rewrite last quarter. Every load is safe to rerun, two independent MRR calculations are reconciled on every build, and one test deliberately bills a month twice to prove the build fails.</p>
+          <div class="case-stats">
+            <div class="case-stat"><span class="case-stat-num">53</span><span class="case-stat-label">dbt tests</span></div>
+            <div class="case-stat"><span class="case-stat-num">20</span><span class="case-stat-label">Python tests</span></div>
+            <div class="case-stat"><span class="case-stat-num">CI</span><span class="case-stat-label">On every pull request</span></div>
+          </div>
+          <div class="case-links"><a href="https://github.com/ebukaohiomoba/revenue-attribution-elt">Code and design notes <span>&rarr;</span></a></div>
+        </div>
+        <a class="case-hit" href="https://github.com/ebukaohiomoba/revenue-attribution-elt" aria-label="View the revenue attribution pipeline" data-cursor="Code"></a>
+      </div>
+    </article>
+
+    <article class="case teal">
+      <div class="case-inner">
+        <div class="case-visual">
+          <div class="flow" aria-label="Pipeline stages">
+            <div class="fs"><b>1</b>Raw CSV extracts</div><div class="fl"></div>
+            <div class="fs"><b>2</b>Postgres raw schema</div><div class="fl"></div>
+            <div class="fs"><b>3</b>dbt star schema</div><div class="fl"></div>
+            <div class="fs"><b>4</b>Live dashboard</div>
+            <p class="term">$ dbt test --select marts<br><span class="ok">PASS=39</span> WARN=0 ERROR=0</p>
+          </div>
+        </div>
+        <div class="case-summary">
+          <div class="case-org"><span class="co-logo"><span>OL</span></span><span class="co-txt"><b>Olist marketplace analytics</b><i>E-commerce · Postgres, dbt, Streamlit</i></span><span class="co-yrs">2026</span></div>
+          <span class="co-flag">Live demo</span>
+          <h3 class="case-title">How do 100K marketplace orders turn into revenue, deliveries and reviews?</h3>
+          <p class="case-desc"><strong>Every mart states its grain.</strong> The dataset has two customer IDs, one per order and one per actual person. Mixing them up inflates customer counts and breaks repeat-purchase analysis, so the person-level customer gets its own model. The dashboard reads mart snapshots, so it stays up with no server to pay for.</p>
+          <div class="case-stats">
+            <div class="case-stat"><span class="case-stat-num">8</span><span class="case-stat-label">Mart models</span></div>
+            <div class="case-stat"><span class="case-stat-num">39</span><span class="case-stat-label">dbt tests</span></div>
+            <div class="case-stat"><span class="case-stat-num">2</span><span class="case-stat-label">Executive and delivery dashboards</span></div>
+          </div>
+          <div class="case-links"><a href="https://olist-analytics-reporting.streamlit.app">Live demo <span>&rarr;</span></a><a class="sec" href="https://github.com/ebukaohiomoba/olist-dbt-streamlit">Code <span>&rarr;</span></a></div>
+        </div>
+        <a class="case-hit" href="https://olist-analytics-reporting.streamlit.app" aria-label="Open the Olist live demo" data-cursor="Demo"></a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="side" id="side" aria-label="Side projects">
+  <div class="inner" style="padding:0">
+    <div class="side-head">
+      <div><p class="eyebrow">Side projects</p><h2>Things I build when nobody's asking.</h2></div>
+    </div>
+    <div class="side-grid">
+      <article class="sp">
+        <div class="sp-top"><span>iOS app</span><span class="flag">In development</span></div>
+        <h3>Olana</h3>
+        <p class="tech">SwiftUI · on-device AI</p>
+        <p class="d">A calendar companion for working adults with ADHD. It reads the calendar you already live in, works out what actually matters, and makes those things hard to miss.</p>
+        <span class="store" role="img" aria-label="Coming soon to the App Store">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M10.5 18.5h3"/></svg>
+          <span><small>Coming soon to the</small><b>App Store</b></span>
+        </span>
+        <p class="why">Picked using the tool next door.</p>
+      </article>
+      <article class="sp">
+        <div class="sp-top"><span>Personal tool</span><span class="flag">Live</span></div>
+        <h3>trendmine</h3>
+        <p class="tech">Python · SQLite · Streamlit</p>
+        <p class="d">Reads thousands of App Store reviews to find where existing apps let people down, then clusters the complaints into themes and checks whether a niche is early or already crowded.</p>
+        <div class="sp-links"><a href="https://trendmine.streamlit.app/">Live demo</a><a href="https://github.com/ebukaohiomoba/trendmine">Code</a></div>
+        <p class="why">A pipeline for deciding what to build.</p>
+      </article>
+      <article class="sp">
+        <div class="sp-top"><span>Streaming</span><span class="flag">Early build</span></div>
+        <h3>Real-time lead scoring</h3>
+        <p class="tech">Kafka · Spark · DynamoDB</p>
+        <p class="d">A streaming rebuild of the lead-intent model from a hackathon-winning team: clickstream events in, an intent score out in seconds.</p>
+        <p class="why">Batch was the warm-up.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="work" id="approach" aria-label="How I work">
+  <div class="inner" style="padding:0">
+    <p class="eyebrow" style="margin-bottom:2.4rem">How I work</p>
+    <div class="block">
+      <div><h3 class="block-title">Principles</h3><p class="block-lead">What I hold every pipeline to, mine or inherited.</p></div>
+      <ul class="principles block-body">
+        <li><span class="ix">01</span><div><h4>Loads you can rerun</h4><p>Every load merges instead of appending, so a retry or a backfill never doubles a number.</p></div></li>
+        <li><span class="ix">02</span><div><h4>Tests that catch real bugs</h4><p>I test the failures I've actually seen in production, not just that a column isn't null.</p></div></li>
+        <li><span class="ix">03</span><div><h4>When two numbers disagree, I find out why</h4><p>Reconciliation is built into the models, and the rules for which number wins are written down.</p></div></li>
+      </ul>
+    </div>
+    <div class="block">
+      <div><h3 class="block-title">Toolkit</h3><p class="block-lead">What I reach for day to day.</p></div>
+      <ul class="cap-grid block-body">
+        <li class="cap-item"><b>SQL</b> and <b>Python</b></li>
+        <li class="cap-item"><b>dbt</b>, models and tests</li>
+        <li class="cap-item"><b>Airflow</b> orchestration</li>
+        <li class="cap-item"><b>Snowflake</b>, <b>DuckDB</b>, <b>Postgres</b></li>
+        <li class="cap-item"><b>Tableau</b> and <b>Periscope</b></li>
+        <li class="cap-item"><b>Streamlit</b> for live demos</li>
+      </ul>
+    </div>
+    <div class="block">
+      <div><h3 class="block-title">Certifications</h3><p class="block-lead">What I'm studying for right now.</p></div>
+      <ul class="certs block-body">
+        <li><div><h4>dbt Fundamentals</h4><p>dbt Labs</p></div><span class="flag">In progress</span></li>
+        <li><div><h4>SnowPro Core</h4><p>Snowflake</p></div><span class="flag">In progress</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer" id="contact">
+  <div class="inner" style="padding:0">
+    <div class="foot-top"><span class="foot-kicker">Contact</span></div>
+    <h2 class="foot-lead">If your data stack looks like this, <span class="rust">let's talk.</span></h2>
+    <div class="foot-contact">
+      <div class="foot-email-row"><a class="foot-email" href="mailto:crohiomoba@gmail.com">crohiomoba@gmail.com</a><button class="foot-copy" id="copyBtn" type="button">Copy</button></div>
+      <nav class="foot-links" aria-label="Elsewhere"><a href="https://github.com/ebukaohiomoba">GitHub <span>&#8599;</span></a><a href="https://linkedin.com/in/chukwuebuka-ohiomoba">LinkedIn <span>&#8599;</span></a><a href="resume.pdf">Resume <span>&#8599;</span></a></nav>
+    </div>
+    <p class="foot-mark" aria-hidden="true">ohiomoba</p>
+    <div class="foot-base">
+      <span>Los Angeles, CA · M.S. Computer Science, Georgia Tech, expected 2027</span>
+      <div class="checks" id="checks">
+        <button class="checks-btn" type="button" aria-expanded="false" aria-controls="checksLog"><span class="dot" id="checksDot"></span><span id="checksSummary">running checks…</span></button>
+        <div class="checks-log" id="checksLog" role="status"></div>
+      </div>
+      <button class="foot-top-btn" type="button" id="toTop">Back to top &uarr;</button>
+    </div>
+  </div>
+</footer>
+
+<div class="cursor" id="cursor" aria-hidden="true">View</div>
+
+<script src="site.js"></script>
+</body>
+</html>
